@@ -3,32 +3,38 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <title>Social Share Test</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+  <!-- Facebook: -->
   <meta property="og:description" content="Testing Social Media Sharing!" />
+  <meta property="og:image" content="img/social-sharing.jpg" />
 </head>
 <body class="container-fluid">
-  <div class="jumbotron"><h2>Social Share Tutorial</h2></div>
+  <div class="jumbotron"><h2 itemprop="description">Testing Social Media Sharing!</h2></div>
   <div class="row">
     <div class="col-xs-12" id="share-buttons">
-        <!-- Email -->
-        <a href="mailto:?Subject=Simple Share Buttons&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://simplesharebuttons.com">
-        <img src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" />
-        </a>
 
         <!-- Facebook -->
        <a href="http://www.facebook.com/sharer.php?u=https://kjh311.github.io/social_share/" target="_blank"><img src="img/facebook.png" alt="Facebook" /></a>
 
-      <!-- Google+ -->
-        <a href="https://plus.google.com/share?url=https://simplesharebuttons.com" target="_blank">
-        <img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" /></a>
+        <!-- Google+ -->
+        <a href="https://plus.google.com/share?url=https://kjh311.github.io/social_share/" target="_blank">
+        <img src="img/google.png" alt="Google" /></a>
 
         <!-- LinkedIn -->
-        <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://simplesharebuttons.com" target="_blank">
-        <img src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" /></a>
+        <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://kjh311.github.io/social_share/" target="_blank">
+        <img src="img/linkedin.png" alt="LinkedIn" /></a>
+
+        <!-- Email -->
+        <a href="mailto:?Subject=Simple Share Buttons&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://kjh311.github.io/social_share/">
+        <img src="img/email.png" alt="Email" />
+        </a>
     </div>
-  </div>
+
+    <img class="hidden" itemprop="image" src="img/social-sharing.jpg"/>
+
 </body>
 </html>
