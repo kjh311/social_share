@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html prefix="og: http://ogp.me/ns#">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,11 +10,16 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
   <!-- Facebook: -->
   <meta property="og:description" content="Testing Social Media Sharing!" />
-  <meta property="og:image" content="https://plavidnetwork.com/wp-content/uploads/2013/09/social-sharing.jpg" />
+  <meta property="og:image" content="img/social-sharing.jpg" />
+  <meta property="og:url" content="https://kjh311.github.io/social_share/" />
+
+  <!-- TWITTER: -->
+  <meta name="twitter:description" content="Testing Social Media Sharing!" />
+  <meta name="twitter:image" content="img/social-sharing.jpg" />
+
 </head>
 <body class="container-fluid">
   <div class="jumbotron"><h2>Testing Social Media Sharing!</h2></div>
-  <div class="hidden" itemprop="description">Testing Social Media Sharing!</p></div>
   <div class="row">
     <div class="col-xs-12" id="share-buttons">
 
@@ -29,6 +34,11 @@
         <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://kjh311.github.io/social_share/" target="_blank">
         <img src="img/linkedin.png" alt="LinkedIn" /></a>
 
+        <!-- Twitter -->
+        <a href="https://twitter.com/share?url=https://kjh311.github.io/social_share/&amp;text=Social%20Share%20Testing" target="_blank">
+        <img src="img/twitter.png" alt="Twitter" />
+        </a>
+
         <!-- Email -->
         <a href="mailto:?Subject=Simple Share Buttons&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://kjh311.github.io/social_share/">
         <img src="img/email.png" alt="Email" />
@@ -36,6 +46,7 @@
     </div>
 
     <img class="hidden" itemprop="image" src="img/social-sharing.jpg"/>
+    <div class="hidden" itemprop="description"><p>Testing Social Media Sharing!</p></div>
 
 </body>
 </html>
