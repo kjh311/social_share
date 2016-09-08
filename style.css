@@ -1,0 +1,14 @@
+/*TUTORIALS:*/
+/*https://simplesharebuttons.com/html-share-buttons/*/
+/*https://www.loginradius.com/engineering/configuring-social-sharing-buttons/*/
+
+body{
+  text-align: center;
+}
+#share-buttons img {
+  width: 80px;
+  padding: 5px;
+  border: 0;
+  box-shadow: 0;
+  display: inline;
+}
